@@ -1,0 +1,30 @@
+body { 
+    padding-left: 10em;
+    padding-right: 10em;
+    font-family: 'Times New Roman', Times, serif; 
+    color: white; 
+    background-image: url(bodyBackground.d);
+    } 
+
+#topItem {
+    background-position: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px inset rgb(56, 7, 97);
+    border-radius: 16px;
+}
+img {
+    position: relative;
+    margin-top: 1em;
+    border-radius: 8px;
+}
+#aboutMe {
+    margin-top: 1em;
+    border: 2px dotted white;
+    padding: 25px;
+    border-radius: 16px;
+    text-align: center;
+}
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
