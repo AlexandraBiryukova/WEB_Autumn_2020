@@ -1,0 +1,111 @@
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background: url("https://images4.alphacoders.com/987/987008.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#header {
+    color: white;
+    text-align: center;
+    letter-spacing: 16px;
+    font-size: 56px;
+}
+
+#header h1 {
+    margin: 48px;
+}
+button {
+    width: 240px;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(24px);
+    padding: 16px;
+    border-radius: 12px;
+    border: 6px white double;
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+}
+
+button:hover {
+    border: 6px rgb(199, 198, 198) double;
+    color: rgb(199, 198, 198);
+}
+
+#or {
+    padding: 0px;
+    text-align: center;
+    color:white;
+    border-top: 4px dotted white;
+    border-bottom: 4px dotted white;
+    margin: 24px 10%;
+    backdrop-filter: blur(1px);
+    min-width: 700px;
+}
+
+#or h2 {
+    margin: 8px;
+}
+form {
+    display: flex;
+    margin: 8px auto;
+    padding: 24px;
+    justify-content: center;
+    flex-direction: column;
+    backdrop-filter: blur(32px);
+    max-width: 400px;
+    border-radius: 24px;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.712);
+}
+
+form p {
+    color: white;
+    font-weight: bolder;
+}
+button:focus {outline:0;}
+
+input, textarea {
+    padding: 8px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.781);
+    margin: 8px;
+    border-radius: 8px;
+    border: 2px white solid;
+}
+
+input::placeholder, textarea::placeholder{
+    color: black;
+}
+
+label {
+    color: white;
+}
+input[type = reset], input[type = submit] {
+    background-color: rgba(255, 255, 255, 0);
+}
+input[type = reset]:hover, input[type = submit]:hover {
+    opacity: 0.8;
+}
+
+input[type = reset] {
+    border-color: red;
+    color: red;
+}
+input[type = submit] {
+    border-color: rgb(0, 255, 0);
+    color: rgb(0, 255, 0);
+}
+.buttons input{
+    width: 150px;
+}
+.buttons {
+    margin: 0 auto;
+}
+
+input:focus {outline: none;}
+textarea:focus {outline: none;}

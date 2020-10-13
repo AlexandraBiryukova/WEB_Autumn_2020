@@ -1,0 +1,111 @@
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background: url("https://images4.alphacoders.com/987/987008.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#header {
+    color: white;
+    text-align: center;
+    letter-spacing: 16px;
+    font-size: 56px;
+}
+
+#header h1 {
+    margin: 48px;
+}
+
+#countries, #navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0px;
+}
+.country {
+    width: 320px;
+    height: 440px;
+    backdrop-filter: blur(24px);
+    border-radius: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-right: 24px;
+
+    color: white;
+}
+
+.country img {
+    width: 128px;
+    height: 64px;
+    border-radius: 8px;
+    align-self: center;
+}
+
+.country h2 {
+    padding-bottom: 16px;
+    border-bottom: 3px solid white;
+}
+
+.country input {
+    width: 100%;
+    height: 44px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(234, 103, 27);
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    margin-bottom: 24px;
+}
+.country input:hover {
+    background-color: rgb(255, 123, 0);
+}
+.country p {
+    font-size: 16px;
+    flex-grow: 3;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navigationButton {
+    height: 64px;
+    width: 280px;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(24px);
+    border-radius: 8px;
+    border: 4px double white;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 24px auto 24px auto;
+    display:block;
+}
+
+.navBarIcon {
+    width: 160px;
+    height: 160px;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(24px);
+    border-radius: 80px;
+    border: 6px double white;
+    margin: 0px 16px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navigationButton:hover, .navBarIcon:hover {
+    border-color: rgb(139, 139, 139);
+    color: rgb(139, 139, 139);
+}
+button:focus {outline:0;}
