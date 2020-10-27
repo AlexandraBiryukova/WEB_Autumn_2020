@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab8</title>
+    <script src = "index.js" type = "text/javascript"></script>
+    <style>
+        * {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        input, button {
+            padding: 16px;
+            border: groove 4px rgb(71, 187, 241);
+            border-radius: 16px;
+            font-size: 16px;
+            margin-right: 12px;
+        }
+        input:focus, button:focus {
+            outline: none;
+        }
+        button:hover {
+            border-color: blue;
+        }
+        img {
+            margin-left: 12px;
+            margin-right: 12px;
+            width: 24px;
+            height: 24px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercise 1 - Calculator</h1>
+    <input id = "exp" type = "text" placeholder="Your expression" oninput="changeText1()";>
+        <button onclick="calculator();">Calculate</button>
+        <p id = "result"></p>
+    <br>
+    <h1>Exercise 2 - Palindrome</h1>
+    <div style="display: flex; align-items: center;">
+        <input id = "palindrome" type = "text" placeholder="Your word" oninput="changeText2();">
+        <button onclick="palindrome();">Check</button>
+        <p>Is it a palindrome?</p>
+        <img id = "answer" src = "https://studia3d.com/wp-content/uploads/270-2706983_question-mark-svg-png-icon-free-download-question-mark-transparent.png" >
+        <p style = "font-weight: bold;" id ="answerText"></p>
+    </div>
+    <br>
+    <h1>Exercise 3 - Histogram</h1>
+    <input id = "hist" type = "text" placeholder="Yours numbers" oninput="changeText3()";>
+        <button onclick="histogram();">Create</button>
+        <p id = "histResult"></p>
+    <br>
+</body>
+</html>
