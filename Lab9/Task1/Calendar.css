@@ -1,0 +1,36 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(56, 4, 104);
+    user-select: none;
+}
+.container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 10% 10% 10% 10% 10% 15% 15%;
+    margin-left: 10em;
+}
+body {
+    background-image: url(bodyBackground.d)
+}
+.day {
+    background-color: rgba(203, 153, 226, 0.575);
+    height: 100px;
+    line-height: 100px;
+}
+.weekend {
+    background-color: rgba(158, 83, 228, 0.589);
+    height: 150px;
+    line-height: 150px;
+}
+
+.day, .weekend {
+    border: 5px groove rgb(56, 4, 104);
+    font-size: 32px;
+    text-align: center;
+    border-radius: 12px; 
+}
+
+h1 {
+    text-align: center;
+    color:white;
+}
