@@ -1,0 +1,14 @@
+table, th, td {
+    border-collapse: collapse; 
+    border: 1px solid black;
+    padding: 8px;
+    margin: 16px 0px 16px 0px;
+    font-size: 14px;
+}
+input:focus {
+    outline: none;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
