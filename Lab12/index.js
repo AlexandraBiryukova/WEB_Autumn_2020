@@ -17,7 +17,7 @@ function createInitialElements() {
 function loadXMLDocument() { 
     $.ajax({
         type: "GET",
-        url: "./data.json",
+        url: "./JsonSimple.json",
         dataType: "json",
         success: function (response) {
             console.log(response);
