@@ -20,7 +20,7 @@ function loadXMLDocument() { 
         url: "./JsonSimple.json",
         dataType: "json",
         success: function (response) {
-            var foods = response;
+            var foods = response["breakfast_menu"]["foods"];
             var tags = ["name", "price", "description", "calories"];
             var tableInnerHtml = "<tr>" + tags.map(function(tag) { return `<th>${tag}</th>`}).join('') + "</tr>" ;  
             for(var i = 0; i < foods.length; i++){
