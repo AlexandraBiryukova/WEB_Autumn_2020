@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(63, 62, 62);
+}
+.bg-blue-light {
+    background-color: rgb(55, 138, 216);
+}
+.card-im-height {
+    height: 200px;
+    width: 100%;
+}
+.carousel-height {
+    height: 400px;
+}
+.alert-margin {
+    top: 20px;
+    position: absolute;
+    margin: 4px 16px;
+    width: 96%;
+    z-index: 100;
+}
+
+#topCountries {
+    margin: 64px;
+}

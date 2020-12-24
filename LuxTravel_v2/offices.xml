@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cities>
+    <city>
+        <title>Алматы</title>
+        <offices>
+            <office>
+                <address>Аль-Фараби проспект, 7 к5а​1 этаж; 101 офис Бостандыкский район, Алматы, 050059/A15E3B3</address>
+                <tel>+7 701 234 23 31</tel>
+            </office>
+            <office>
+                <address>Аль-Фараби проспект, 23 к5а​1 этаж; Алматы, 050059/A15E3B3</address>
+                <tel>+7 701 234 23 32</tel>
+            </office>
+            <office>
+                <address> Аль-Фараби проспект 101 офис Бостандыкский район, Алматы, 050059/A15E3B3</address>
+                <tel>+7 701 234 23 32</tel>
+        </office>
+    </offices>
+    </city>
+    <city>
+        <title>Талдыкорган</title>
+        <offices>
+            <office>
+                <address>Аль-Фараби проспект, 7 к5а​1 этаж; 101 офис Бостандыкский район, Алматы, 050059/A15E3B3</address>
+                <tel>+7 701 234 23 31</tel>
+            </office>
+            <office>
+                <address>Аль-Фараби проспект, 23 к5а​1 этаж; Алматы, 050059/A15E3B3</address>
+                <tel>+7 701 234 23 32</tel>
+            </office>
+            <office>
+                <address> Аль-Фараби проспект 101 офис Бостандыкский район, Алматы, 050059/A15E3B3</address>
+                <tel>+7 701 234 23 32</tel>
+        </office>
+    </offices>
+    </city>
+    <city>
+        <title>Нур-Султан</title>
+        <offices>
+            <office>
+                <address>Аль-Фараби проспект, 7 к5а​1 этаж; 101 офис Бостандыкский район, Алматы, 050059/A15E3B3</address>
+                <tel>+7 701 234 23 31</tel>
+            </office>
+            <office>
+                <address>Аль-Фараби проспект, 23 к5а​1 этаж; Алматы, 050059/A15E3B3</address>
+                <tel>+7 701 234 23 32</tel>
+            </office>
+            <office>
+                <address> Аль-Фараби проспект 101 офис Бостандыкский район, Алматы, 050059/A15E3B3</address>
+                <tel>+7 701 234 23 32</tel>
+        </office>
+    </offices>
+    </city>
+</cities>
